@@ -1,0 +1,3 @@
+interface:
+  display_name: "Design evaluations"
+  short_description: "Design useful datasets, graders and evaluation plans"

@@ -1,0 +1,1514 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "skills": [
+    {
+      "name": "test-swift",
+      "repository": "https://github.com/AvdLee/Swift-Testing-Agent-Skill",
+      "revision": "798e9b1a2bcac164d4f0c781908199e754f0bab6",
+      "source_path": "swift-testing-expert",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "8f5fd8e5cddb015b5627e45e68b256356586144288a4a0a3db87e38bcb0c9155",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "740fdd17bf24b140d0d141372804f5e362fff0546ed3bd27ea93076780065f90",
+          "modified": true
+        },
+        "SKILL.md": {
+          "upstream_sha256": "d039eb55cfbaa379d308ff42c1e459dea355edb869ec0a4d6f488759d2156aec",
+          "sha256": "646136dcff0453a393f7f674f3e8fbd53214f9edf5b3451379daccae2690ceb3",
+          "modified": true
+        },
+        "references/_index.md": {
+          "upstream_sha256": "623f23b0e14d363928bfc6b8ed54c89c6d420fde809ee79c0f6e37ed2c4aa965",
+          "sha256": "623f23b0e14d363928bfc6b8ed54c89c6d420fde809ee79c0f6e37ed2c4aa965",
+          "modified": false
+        },
+        "references/async-testing-and-waiting.md": {
+          "upstream_sha256": "e5f7d016a95d976774d7f26a80be07acf204306aa874f60d6f501aec141c6ceb",
+          "sha256": "e5f7d016a95d976774d7f26a80be07acf204306aa874f60d6f501aec141c6ceb",
+          "modified": false
+        },
+        "references/expectations.md": {
+          "upstream_sha256": "e3d4a57b5d162f49e8f7135e2a020eb1c2af0301782d31c1e4ac3d51a9a0dac5",
+          "sha256": "e3d4a57b5d162f49e8f7135e2a020eb1c2af0301782d31c1e4ac3d51a9a0dac5",
+          "modified": false
+        },
+        "references/fundamentals.md": {
+          "upstream_sha256": "ad3af7d6ce9a31c2f8222a88baf9a5631de6443d2ad671764e2d183bba7019f3",
+          "sha256": "ad3af7d6ce9a31c2f8222a88baf9a5631de6443d2ad671764e2d183bba7019f3",
+          "modified": false
+        },
+        "references/migration-from-xctest.md": {
+          "upstream_sha256": "f94a3bc08fb59358689a84d9d6a2838154dc96904e53457e068d00df5b0671ef",
+          "sha256": "301e53f307efaf805cd93975b80e4819033ad7d69240c5a5b0a6d3747498f8cc",
+          "modified": true
+        },
+        "references/parallelization-and-isolation.md": {
+          "upstream_sha256": "209cd458d3fbc8a2830265252714f5ac09abe93100b3b2582034fa7ea1a0568c",
+          "sha256": "209cd458d3fbc8a2830265252714f5ac09abe93100b3b2582034fa7ea1a0568c",
+          "modified": false
+        },
+        "references/parameterized-testing.md": {
+          "upstream_sha256": "852ea45d5cae37f3e687050be2cb728370a635129786928cadef4a9dcc8d2c09",
+          "sha256": "ef1a6002f2304a1a4cfc1755d6967f264494f4f8a292363cd8b5b9431f684a0e",
+          "modified": true
+        },
+        "references/performance-and-best-practices.md": {
+          "upstream_sha256": "3ecd3da92d2676935863942894e5e9ef649a24b5e56f20f65fc81899297b49c2",
+          "sha256": "7705ffab95a39bae52aacc1baf729d7c027ab4df7efbbf8512393e58acfae98e",
+          "modified": true
+        },
+        "references/traits-and-tags.md": {
+          "upstream_sha256": "17dd0b7182f0abdf51f538a6bcc139ef6d501325575476c63a6d5f933312b49e",
+          "sha256": "17dd0b7182f0abdf51f538a6bcc139ef6d501325575476c63a6d5f933312b49e",
+          "modified": false
+        },
+        "references/xcode-workflows.md": {
+          "upstream_sha256": "f43407527c30bc1e346d32e4f54a5105a9c61bd071abfbfaa7b91107b4451c94",
+          "sha256": "f43407527c30bc1e346d32e4f54a5105a9c61bd071abfbfaa7b91107b4451c94",
+          "modified": false
+        }
+      },
+      "adaptations": [
+        "Add project/toolchain scope and meaningful-test guidance.",
+        "Omit client branding metadata and assets.",
+        "Rename the local skill to test-swift for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "design-swiftui",
+      "repository": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "revision": "f2920b63995263f57b3e198674e89a602efba6d2",
+      "source_path": "swiftui-pro",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [
+        "agents/openai.yaml",
+        "assets/swiftui-pro-icon.png",
+        "assets/swiftui-pro-icon.svg"
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "b9b479e6df9f27cbc8e7abe91f771b396f3f0fa114d070c7c0b02c820c6b74dc",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "33e9221caa6ce8033e68857238e50b47a0820ba42ad104a191409df8102f9cb7",
+          "modified": true
+        },
+        "SKILL.md": {
+          "upstream_sha256": "fc62139e262bd364cbbcab9b9f97557cd3fd6d2d4f73c4fab039d562fc324643",
+          "sha256": "86a73063871f616dc37dd3df7b65e3e0a505e2e8c7e3797ce0c3c01034e1bf79",
+          "modified": true
+        },
+        "references/accessibility.md": {
+          "upstream_sha256": "46f865d3e5cf63f4394e8d55628e06897bf9eec7409d69331931225eac69a198",
+          "sha256": "301c423641542eeae8b334765614a19528a4732256de44b94e71331df4f9a3bf",
+          "modified": true
+        },
+        "references/api.md": {
+          "upstream_sha256": "a12fb9dcc02093b560dd82e2882556d7cd2d6652edc0006eb24ebc14bc669448",
+          "sha256": "746054406c5191cbba94fb7e6d0df2740d0fcf7740d14ed5e0c1b311ed49731e",
+          "modified": true
+        },
+        "references/data.md": {
+          "upstream_sha256": "291a81fb0fc1befebcafe576d9e35cc8d47bb4d63baef50f6f2292300be797dd",
+          "sha256": "e42fdd6eba0d44b2a5fb60bcdfcdf9b6ff5905c671b9a37058d4cab68caa6af6",
+          "modified": true
+        },
+        "references/design.md": {
+          "upstream_sha256": "8f2d05504e4d51dc2a0d91d2b0a580457cd98d0145826e4c0bc35dc67f006793",
+          "sha256": "5055adabc7113d521c3d3fb0b9bae952d662496ff111516ca07898b9489c4f76",
+          "modified": true
+        },
+        "references/hygiene.md": {
+          "upstream_sha256": "18c945717a842912180c218c10e7e76b496c11a87a77c1be65a504c70850877c",
+          "sha256": "f7f3f643ffb3154223fa2518db5d11b9acb4e819d36297bab8579977ff3767be",
+          "modified": true
+        },
+        "references/localization.md": {
+          "upstream_sha256": "54f1d15bd8f726409a72622964005d2732148da614dc022bf7729f68ab246571",
+          "sha256": "19948fac25cf263164317342dd44ae6ace6e677f21bb08a17d0f0c8fe171427a",
+          "modified": true
+        },
+        "references/navigation.md": {
+          "upstream_sha256": "24b95bbaa01970ff0a6625a7a201d81191ab1746dbe317bd7583d1f3f7ce53a3",
+          "sha256": "d4715dfa036803549a6a333702114c277ac5fdace62b8e2ac85887cafbcf6a48",
+          "modified": true
+        },
+        "references/performance-plus.md": {
+          "upstream_sha256": "b7c77ac07548f9f8b6440daab607b0fa22796fc498ca644e3fa9890ee7912068",
+          "sha256": "acc56f4dd5e56f387a2232c6dac74b4843ba7d12de13a2b89a847fac8629c183",
+          "modified": true
+        },
+        "references/performance.md": {
+          "upstream_sha256": "82ee00cc74109dd7e6296dc872d410742a8584ad6d0bc4ae902fad0220392e38",
+          "sha256": "8e27615c584ba127b7da40812fe2b2d49e25fcb1284608ca94a8938acdc6b848",
+          "modified": true
+        },
+        "references/resizability.md": {
+          "upstream_sha256": "2e1a88a675fe2eaf326fb1a50fafae4123725e6b4278c311c875335651a60226",
+          "sha256": "4b6cf184d2df16b8e5cd85e0f85e8fbc00210c1f9640007f3a96e2f677a673c2",
+          "modified": true
+        },
+        "references/swift.md": {
+          "upstream_sha256": "fda431d8d1cc58bddc38a2075d5818b3d41df9b69886e8b1f6e0370ba1f9f773",
+          "sha256": "f83df6036397da1282c60f087f2fd7661cb3320ce28423284bef3684b26d5622",
+          "modified": true
+        },
+        "references/views.md": {
+          "upstream_sha256": "e9c7ce9ef17e23b713a2565ee9d7f5db11e036adbae1a6b9c14d21d8b3dddce7",
+          "sha256": "fb71f58bc43258fdd8143b11d942ea2f5c6e609eeda4288646302898f065b1f1",
+          "modified": true
+        },
+        "references/platform-design.md": {
+          "sha256": "0a524f448b65123478420b5dcaeafa4608eebe154f9502e6442735883c1bddca",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Preserve project SDKs, language mode, UIKit integration, architecture, dependencies, and file organization.",
+        "Replace resizability guidance with version-neutral review checks; omit unverified iOS/Xcode 27 examples and device claims.",
+        "Require SDK/official-documentation verification of remaining version-sensitive advice.",
+        "Omit client branding metadata and assets.",
+        "Rename the local skill to design-swiftui for purpose-based discovery; preserve upstream identity.",
+        "2026-11-15 original synthesis: iOS/iPadOS/macOS HIG, exact API availability, inspiration routing and native verification; qualify blanket design/navigation rules."
+      ]
+    },
+    {
+      "name": "test-properties",
+      "repository": "https://github.com/trailofbits/skills",
+      "revision": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
+      "source_path": "plugins/property-based-testing/skills/property-based-testing",
+      "license": "CC-BY-SA-4.0",
+      "license_source": "LICENSE",
+      "omitted_files": [
+        "README.md",
+        "agents/openai.yaml",
+        "assets/trail-of-bits-mark.svg"
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "bf556ec6e129746444d51577882ff915508a5b1a4b60386d7bbeb51ef7c8946d",
+          "modified": true
+        },
+        "SKILL.md": {
+          "upstream_sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+          "sha256": "b1ffdf0cc46d5984ff5aa117d8f9dc11749a90c77c5c5cb312f9f85d3c49ae1d",
+          "modified": true
+        },
+        "references/generating.md": {
+          "upstream_sha256": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+          "sha256": "7eee2c557b669b5ec5df36d51728d8e14c987844b475767d865c2f19986d816a",
+          "modified": true
+        },
+        "references/interpreting-failures.md": {
+          "upstream_sha256": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+          "sha256": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+          "modified": false
+        },
+        "references/libraries.md": {
+          "upstream_sha256": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+          "sha256": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+          "modified": false
+        },
+        "references/refactoring.md": {
+          "upstream_sha256": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+          "sha256": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+          "modified": false
+        },
+        "references/reviewing.md": {
+          "upstream_sha256": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774",
+          "sha256": "fee081a9a6f8dcb2c071fc7d5253a6ad3053e62a269ee318d1b5590126c6b773",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Preserve existing test/dependency policy and user authorization; avoid trivial tests or unrelated seam refactors.",
+        "Omit README, client metadata, and branding assets.",
+        "Rename the local skill to test-properties for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "review-codebase",
+      "repository": "https://github.com/shadcn/improve",
+      "revision": "cac56e1ebd3c279aa9153616cfeac7b174ab90f9",
+      "source_path": "skills/improve",
+      "license": "MIT",
+      "license_source": "LICENSE.md",
+      "omitted_files": [
+        "references/closing-the-loop.md"
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "00ff8408e93e2ecc4d90c0edeabdf434100c3aff50acc5d330e17eccd4a3faa5",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "2d0d6bb6a26b9f887883bcc10c35fd79ea340090238ea0f3b96793f9d83d2c5d",
+          "modified": true
+        },
+        "SKILL.md": {
+          "upstream_sha256": "1599aa29e9b16424cb767779efac53fa56e3f38be92dff4ac587393a1ad5070a",
+          "sha256": "31121b91dcf002a0d5813adf5011c04a44d3cc4b1c62446cd364df79646c28aa",
+          "modified": true
+        },
+        "references/audit-playbook.md": {
+          "upstream_sha256": "587c1b927070f3c28139ad95ac34cc21a7da32618cfeb966cb774e58a865d4c8",
+          "sha256": "b335067ade0b874b0b1908f520366578bae17c521b93746bd28fd3040451f787",
+          "modified": true
+        },
+        "references/plan-template.md": {
+          "upstream_sha256": "7be76dd3c29442288fa7cee4432fc6e95c2fdbf748c9b356344bf647c5f8722e",
+          "sha256": "a8356dd7d356f4a9de13cef9a1db128d62adf4c5ae22c0fdd0cf0b35fb39c58d",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Replace entrypoint and plan template with audit/planning workflow respecting current user authorization and owning guides.",
+        "Omit execution, worktree, issue publication, automatic subagent, forced model, and approval workflows.",
+        "Preserve useful audit categories, finding evidence, prioritization, and private-data handling.",
+        "Rename the local skill to review-codebase for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "perf-react",
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "source_path": "skills/react-best-practices",
+      "license": "MIT",
+      "license_source": "skills/react-best-practices/SKILL.md",
+      "omitted_files": [
+        "AGENTS.md",
+        "README.md",
+        "metadata.json"
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "9a1ed20f720f9f72684f0c2f03b9168a6d3e223e5381025413f83051273805dc",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "2d0cc71885a00a4f09c3afa4c91b302510aa7ec9fb78c798189e361c6eab243f",
+          "modified": true
+        },
+        "SKILL.md": {
+          "upstream_sha256": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+          "sha256": "71a140fcc1958407fe45716473728bb4d59c7e0f8b7d9c9052c876968ca21570",
+          "modified": true
+        },
+        "rules/_sections.md": {
+          "upstream_sha256": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+          "sha256": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+          "modified": false
+        },
+        "rules/_template.md": {
+          "upstream_sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+          "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+          "modified": false
+        },
+        "rules/advanced-effect-event-deps.md": {
+          "upstream_sha256": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+          "sha256": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+          "modified": false
+        },
+        "rules/advanced-event-handler-refs.md": {
+          "upstream_sha256": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+          "sha256": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+          "modified": false
+        },
+        "rules/advanced-init-once.md": {
+          "upstream_sha256": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+          "sha256": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+          "modified": false
+        },
+        "rules/advanced-use-latest.md": {
+          "upstream_sha256": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+          "sha256": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+          "modified": false
+        },
+        "rules/async-api-routes.md": {
+          "upstream_sha256": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+          "sha256": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+          "modified": false
+        },
+        "rules/async-cheap-condition-before-await.md": {
+          "upstream_sha256": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+          "sha256": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+          "modified": false
+        },
+        "rules/async-defer-await.md": {
+          "upstream_sha256": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+          "sha256": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+          "modified": false
+        },
+        "rules/async-dependencies.md": {
+          "upstream_sha256": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+          "sha256": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+          "modified": false
+        },
+        "rules/async-parallel.md": {
+          "upstream_sha256": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+          "sha256": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+          "modified": false
+        },
+        "rules/async-suspense-boundaries.md": {
+          "upstream_sha256": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+          "sha256": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+          "modified": false
+        },
+        "rules/bundle-analyzable-paths.md": {
+          "upstream_sha256": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+          "sha256": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+          "modified": false
+        },
+        "rules/bundle-barrel-imports.md": {
+          "upstream_sha256": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+          "sha256": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+          "modified": false
+        },
+        "rules/bundle-conditional.md": {
+          "upstream_sha256": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+          "sha256": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+          "modified": false
+        },
+        "rules/bundle-defer-third-party.md": {
+          "upstream_sha256": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+          "sha256": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+          "modified": false
+        },
+        "rules/bundle-dynamic-imports.md": {
+          "upstream_sha256": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+          "sha256": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+          "modified": false
+        },
+        "rules/bundle-preload.md": {
+          "upstream_sha256": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+          "sha256": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+          "modified": false
+        },
+        "rules/client-event-listeners.md": {
+          "upstream_sha256": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+          "sha256": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+          "modified": false
+        },
+        "rules/client-localstorage-schema.md": {
+          "upstream_sha256": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+          "sha256": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+          "modified": false
+        },
+        "rules/client-passive-event-listeners.md": {
+          "upstream_sha256": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+          "sha256": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+          "modified": false
+        },
+        "rules/client-swr-dedup.md": {
+          "upstream_sha256": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+          "sha256": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+          "modified": false
+        },
+        "rules/js-batch-dom-css.md": {
+          "upstream_sha256": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+          "sha256": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+          "modified": false
+        },
+        "rules/js-cache-function-results.md": {
+          "upstream_sha256": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+          "sha256": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+          "modified": false
+        },
+        "rules/js-cache-property-access.md": {
+          "upstream_sha256": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+          "sha256": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+          "modified": false
+        },
+        "rules/js-cache-storage.md": {
+          "upstream_sha256": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+          "sha256": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+          "modified": false
+        },
+        "rules/js-combine-iterations.md": {
+          "upstream_sha256": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+          "sha256": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+          "modified": false
+        },
+        "rules/js-early-exit.md": {
+          "upstream_sha256": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+          "sha256": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+          "modified": false
+        },
+        "rules/js-flatmap-filter.md": {
+          "upstream_sha256": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+          "sha256": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+          "modified": false
+        },
+        "rules/js-hoist-regexp.md": {
+          "upstream_sha256": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+          "sha256": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+          "modified": false
+        },
+        "rules/js-index-maps.md": {
+          "upstream_sha256": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+          "sha256": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+          "modified": false
+        },
+        "rules/js-length-check-first.md": {
+          "upstream_sha256": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+          "sha256": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+          "modified": false
+        },
+        "rules/js-min-max-loop.md": {
+          "upstream_sha256": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+          "sha256": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+          "modified": false
+        },
+        "rules/js-request-idle-callback.md": {
+          "upstream_sha256": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+          "sha256": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+          "modified": false
+        },
+        "rules/js-set-map-lookups.md": {
+          "upstream_sha256": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+          "sha256": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+          "modified": false
+        },
+        "rules/js-tosorted-immutable.md": {
+          "upstream_sha256": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+          "sha256": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+          "modified": false
+        },
+        "rules/rendering-activity.md": {
+          "upstream_sha256": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+          "sha256": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+          "modified": false
+        },
+        "rules/rendering-animate-svg-wrapper.md": {
+          "upstream_sha256": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+          "sha256": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+          "modified": false
+        },
+        "rules/rendering-conditional-render.md": {
+          "upstream_sha256": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+          "sha256": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+          "modified": false
+        },
+        "rules/rendering-content-visibility.md": {
+          "upstream_sha256": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+          "sha256": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+          "modified": false
+        },
+        "rules/rendering-hoist-jsx.md": {
+          "upstream_sha256": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+          "sha256": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+          "modified": false
+        },
+        "rules/rendering-hydration-no-flicker.md": {
+          "upstream_sha256": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+          "sha256": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+          "modified": false
+        },
+        "rules/rendering-hydration-suppress-warning.md": {
+          "upstream_sha256": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+          "sha256": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+          "modified": false
+        },
+        "rules/rendering-resource-hints.md": {
+          "upstream_sha256": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+          "sha256": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+          "modified": false
+        },
+        "rules/rendering-script-defer-async.md": {
+          "upstream_sha256": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+          "sha256": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+          "modified": false
+        },
+        "rules/rendering-svg-precision.md": {
+          "upstream_sha256": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+          "sha256": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+          "modified": false
+        },
+        "rules/rendering-usetransition-loading.md": {
+          "upstream_sha256": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+          "sha256": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+          "modified": false
+        },
+        "rules/rerender-defer-reads.md": {
+          "upstream_sha256": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+          "sha256": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+          "modified": false
+        },
+        "rules/rerender-dependencies.md": {
+          "upstream_sha256": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+          "sha256": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+          "modified": false
+        },
+        "rules/rerender-derived-state-no-effect.md": {
+          "upstream_sha256": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+          "sha256": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+          "modified": false
+        },
+        "rules/rerender-derived-state.md": {
+          "upstream_sha256": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+          "sha256": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+          "modified": false
+        },
+        "rules/rerender-functional-setstate.md": {
+          "upstream_sha256": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+          "sha256": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+          "modified": false
+        },
+        "rules/rerender-lazy-state-init.md": {
+          "upstream_sha256": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+          "sha256": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+          "modified": false
+        },
+        "rules/rerender-memo-with-default-value.md": {
+          "upstream_sha256": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+          "sha256": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+          "modified": false
+        },
+        "rules/rerender-memo.md": {
+          "upstream_sha256": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+          "sha256": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+          "modified": false
+        },
+        "rules/rerender-move-effect-to-event.md": {
+          "upstream_sha256": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+          "sha256": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+          "modified": false
+        },
+        "rules/rerender-no-inline-components.md": {
+          "upstream_sha256": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+          "sha256": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+          "modified": false
+        },
+        "rules/rerender-simple-expression-in-memo.md": {
+          "upstream_sha256": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+          "sha256": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+          "modified": false
+        },
+        "rules/rerender-split-combined-hooks.md": {
+          "upstream_sha256": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+          "sha256": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+          "modified": false
+        },
+        "rules/rerender-transitions.md": {
+          "upstream_sha256": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+          "sha256": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+          "modified": false
+        },
+        "rules/rerender-use-deferred-value.md": {
+          "upstream_sha256": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+          "sha256": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+          "modified": false
+        },
+        "rules/rerender-use-ref-transient-values.md": {
+          "upstream_sha256": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+          "sha256": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+          "modified": false
+        },
+        "rules/server-after-nonblocking.md": {
+          "upstream_sha256": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+          "sha256": "fbcfc00cb769756a06ff5c27402d4b5b9e6650e6ba467109f090594ef3e57632",
+          "modified": true
+        },
+        "rules/server-auth-actions.md": {
+          "upstream_sha256": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+          "sha256": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+          "modified": false
+        },
+        "rules/server-cache-lru.md": {
+          "upstream_sha256": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+          "sha256": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+          "modified": false
+        },
+        "rules/server-cache-react.md": {
+          "upstream_sha256": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+          "sha256": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+          "modified": false
+        },
+        "rules/server-dedup-props.md": {
+          "upstream_sha256": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+          "sha256": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+          "modified": false
+        },
+        "rules/server-hoist-static-io.md": {
+          "upstream_sha256": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+          "sha256": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+          "modified": false
+        },
+        "rules/server-no-shared-module-state.md": {
+          "upstream_sha256": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+          "sha256": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+          "modified": false
+        },
+        "rules/server-parallel-fetching.md": {
+          "upstream_sha256": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+          "sha256": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+          "modified": false
+        },
+        "rules/server-parallel-nested-fetching.md": {
+          "upstream_sha256": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+          "sha256": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+          "modified": false
+        },
+        "rules/server-serialization.md": {
+          "upstream_sha256": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+          "sha256": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+          "modified": false
+        }
+      },
+      "adaptations": [
+        "Preserve MIT declaration and author attribution; note absence of standalone upstream license.",
+        "Add project-version, dependency, cache privacy, authorization, CSP, and evidence-based optimization constraints.",
+        "Omit compiled AGENTS.md duplicate and contributor build README; retain individual rules.",
+        "Rename the local skill to perf-react for purpose-based discovery; preserve upstream identity.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved."
+      ]
+    },
+    {
+      "name": "design-codebase",
+      "repository": "https://github.com/mattpocock/skills",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "source_path": "skills/engineering/codebase-design",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/addyosmani/agent-skills",
+          "revision": "301b02b12bff98e4688e6984af6556802322bbde",
+          "source_path": "skills/code-review-and-quality",
+          "license": "MIT",
+          "license_source": "LICENSE",
+          "omitted_files": [],
+          "additional_sources": [],
+          "adaptations": [
+            "Maintenance/architecture findings complement correctness review; no count quotas, review panels or automatic rewrites.",
+            "Instructions/references only; omit upstream automation and pack-wide policies."
+          ]
+        }
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "789045ef7520c4b85a04b4b7965f299f6dc02c9b353f253f0702874c4d42e562",
+          "modified": true,
+          "upstream_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+        },
+        "NOTICE.md": {
+          "sha256": "5bf58ca7da6c8a1bc989155b1b5b0dd06e19c2bd5dfc820c26f7356f06d7a783",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "9bbd86b7987f36ec18c15bc2104c498eb6749f67f5d6f85aceac6ca6e072ae45",
+          "modified": true,
+          "upstream_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+        }
+      },
+      "adaptations": [
+        "Keep useful single-use helpers, real variation points and meaningful interface tests; remove fixed ceremonies.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "Consolidate codebase design and structural review into design-codebase, preserving both source licenses and review-only behavior.",
+        "Rename the local skill to design-codebase for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "design-patterns",
+      "repository": "https://github.com/laurigates/claude-plugins",
+      "revision": "e8690fa4f2082e7cce7d63e231781e7f565425a6",
+      "source_path": "software-design-plugin/skills/design-patterns",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "c891a3589380953370db27b029a59106ab0a41517c01019c8e25fde125cbbc53",
+          "modified": false,
+          "upstream_sha256": "c891a3589380953370db27b029a59106ab0a41517c01019c8e25fde125cbbc53"
+        },
+        "NOTICE.md": {
+          "sha256": "94939b9739b9a5e484e49ecf734b09beebe90ef8bba507d7454ac943bfc001f8",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "4213d0c35f9cfaec6bb37f8f66b4571e8d757744a30264ebd284a30d9dfce9a8",
+          "modified": true,
+          "upstream_sha256": "c41a303817b65c0d6b0f7c3f169832533bd70f095be38527827a1fb8fbf0377a"
+        }
+      },
+      "adaptations": [
+        "Compact GoF decision table with language-native alternatives and a valid no-pattern outcome.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "design-unix",
+      "repository": "https://github.com/microsoft/amplifier-bundle-systems-design",
+      "revision": "1eff6a2bcebe7c42d5d8d4962e1937a3bb932b0c",
+      "source_path": "skills/design-philosophy-linux",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "modified": false,
+          "upstream_sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        "NOTICE.md": {
+          "sha256": "f14c6d6d2316cbaaf5802b3ec3ccd270d884f538bafa945ceca1f9051c732f04",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "4f457654cf9ded7bba6f53e4eb55263b62a88bc876440785dcc8ef28e5f4b9aa",
+          "modified": true,
+          "upstream_sha256": "3b40fef73a805535a46fce4a95419d525f4864f8c25bc2bd437285c8bfd92dd9"
+        }
+      },
+      "adaptations": [
+        "Keep composable contracts and stream conventions without universal process, text or configuration prescriptions.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "Rename the local skill to design-unix for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "intent-driven-development",
+      "repository": "https://github.com/affaan-m/ECC",
+      "revision": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+      "source_path": "skills/intent-driven-development",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+          "modified": false,
+          "upstream_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+        },
+        "NOTICE.md": {
+          "sha256": "f120a517dd015fff7b73ad98159eb89ce1b8ef81b4aa15e294d1c523047a0f50",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "8a1c9bdafd0a73dba26d34a154d864fd6e94f1f3bcc2aaa60e2e4d964fad35d7",
+          "modified": true,
+          "upstream_sha256": "e34045f7b3bf6a6fbd364f85c7bc81d8208e18bb929ceff80bbc987f78aadea8"
+        }
+      },
+      "adaptations": [
+        "Brief observable outcomes only when useful; preserve authorization and omit universal specification/coverage gates.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "repository": "https://github.com/obra/superpowers",
+      "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_path": "skills/systematic-debugging",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/mattpocock/skills",
+          "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+          "source_path": "skills/engineering/diagnosing-bugs",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+          "modified": false,
+          "upstream_sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+        },
+        "LICENSE.matt": {
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "f417099f725c95097dc51bf4bd2d09c7e7c1a6c633a333921071fc73f48af5f5",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "204cf0212da54d4cce798c37437e9d3444776bf073215ff108fa2beebddc7911",
+          "modified": true,
+          "upstream_sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202"
+        },
+        "references/reproduction.md": {
+          "sha256": "64b235fd8f4dc5d31f488f07cfc5ca827ec0a39b914634006e641ba6431f0ff0",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Evidence-led diagnosis, one discriminating change and focused regression checks without rigid attempt counts.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "2026-11-15: original reproduction, flakiness and bisect guidance with primary-source checks and community counterexamples."
+      ]
+    },
+    {
+      "name": "perf-system",
+      "repository": "https://github.com/affaan-m/ECC",
+      "revision": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+      "source_path": "skills/benchmark-optimization-loop",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/addyosmani/agent-skills",
+          "revision": "301b02b12bff98e4688e6984af6556802322bbde",
+          "source_path": "skills/performance-optimization",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/steipete/agent-scripts",
+          "revision": "d210c0a77c8f9ae5e1d939b13238a75e87cdb69a",
+          "source_path": "skills/instruments-profiling",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+          "modified": false,
+          "upstream_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+        },
+        "LICENSE.addy": {
+          "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+          "modified": true
+        },
+        "LICENSE.peter": {
+          "sha256": "91089c64f7d3b2af58205ce4f22023029fd0b1bb815166e230225923ad2655f2",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "9e54a496de1ee3ccb7a266e63bbd45fc964dcb9ad0e6371cb366a7385a132e37",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "c9f7640f3013b51712d02de43391228c5992ce96b15fe55ec34ff868241de933",
+          "modified": true,
+          "upstream_sha256": "f11208b6a86bc311cfbd9e20688a189238fda6c1e03b6f8000ef9e55487f6f95"
+        },
+        "references/profiling.md": {
+          "sha256": "dbda274a1f7bc01d2b7b36ed5c45215c05276f8c22892775583d6f3ac4c0ef72",
+          "modified": true
+        },
+        "references/native.md": {
+          "modified": true,
+          "sha256": "aacdc6c2e686411a78685182ed55d3349c6c1e56cf8b1785da1c44c62d3f8e4d"
+        },
+        "references/linux.md": {
+          "modified": true,
+          "sha256": "71d103060afadfd8b8292baa426aed94eb69f291787bd286f0b23452a572303a"
+        }
+      },
+      "adaptations": [
+        "Measured baseline and profiling reference; bounded work, noise-aware comparison, no mandatory exhaustive benchmark suite.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "Renamed to perf-system on 2026-11-13; underlying benchmark method and attribution retained.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved.",
+        "2026-11-15: native Rust/Zig profiling and source-version guidance; shared OS/hardware reference and optional specialist routing, with product semantics and task-owned cleanup preserved.",
+        "2026-11-15: Linux x86-64/ARM64 workflow for ELF symbols, cgroups, virtualized/restricted counters, scheduler pressure, NUMA and allocator/I/O evidence.",
+        "2026-11-15: optional perf-go routing for Go runtime profiles, goroutines, GC and backend instrumentation.",
+        "2026-11-15: optional perf-node, perf-python and perf-database routing; focused runtime and engine guidance remains separately owned.",
+        "2026-11-15: replace perf-database routing with four focused engine/API skills: perf-postgres, perf-clickhouse, perf-sqlite and perf-swiftdata; no umbrella alias."
+      ]
+    },
+    {
+      "name": "handoff",
+      "repository": "https://github.com/mattpocock/skills",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "source_path": "skills/productivity/handoff",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+          "modified": false,
+          "upstream_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+        },
+        "NOTICE.md": {
+          "sha256": "2945f4963e19970ce3aaedc379e57280e45c7b75980e69749661b47eba4007b3",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "578d4d62dc01fdbf48a1493adbf003cbde1a03faa2d393e05b85b83814d0702c",
+          "modified": true,
+          "upstream_sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3"
+        }
+      },
+      "adaptations": [
+        "Concise private continuation state; no automatic upload, delegation, commit or cross-machine-sharing claim.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "build-api-connector",
+      "repository": "https://github.com/affaan-m/ECC",
+      "revision": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+      "source_path": "skills/api-connector-builder",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+          "modified": false,
+          "upstream_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+        },
+        "NOTICE.md": {
+          "sha256": "ef8c6f36c404e2bcb1755214078820aac27ee2b00365150792b3523bcaf470c1",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "3b67d3db89d8452e233bfd998e8c2543b54f96afebc8bcb642c17918dbad9a98",
+          "modified": true,
+          "upstream_sha256": "00a0d01e234f213d343f0040bbebd56e042978768ce5bb7117776a75bd9547e8"
+        }
+      },
+      "adaptations": [
+        "Only required operations using existing authentication, bounded work, safe retries and meaningful contract tests.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "Rename the local skill to build-api-connector for purpose-based discovery; preserve upstream identity."
+      ]
+    },
+    {
+      "name": "design-ui",
+      "repository": "https://github.com/anthropics/skills",
+      "revision": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "source_path": "skills/frontend-design",
+      "license": "Apache-2.0",
+      "license_source": "skills/frontend-design/LICENSE.txt",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE.txt": {
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "modified": false,
+          "upstream_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        "NOTICE.md": {
+          "sha256": "6a9276b44494d57ca03a6078d2911ce878f92ed40b849e23373d8059a35ec7f9",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "b83a06d070de528e234cd909412ff475033c17f0d34c936944a15cb56da2fb31",
+          "modified": true,
+          "upstream_sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+        },
+        "references/web-platform.md": {
+          "sha256": "02d035cd90ed12e5877c88db964ffd012e80a5f3df0b1a75960b811dfafd3e0b",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Preserve existing design systems; practical visual/interaction checks without mandatory reapproval, trend bans or new automation.",
+        "Instructions/references only; omit upstream automation and pack-wide policies.",
+        "Rename the local skill to design-ui for purpose-based discovery; preserve upstream identity.",
+        "2026-11-15 original synthesis: research-first Mobbin/five-direction routing, typography comparison and primary web-platform references."
+      ]
+    },
+    {
+      "name": "observability",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "revision": "301b02b12bff98e4688e6984af6556802322bbde",
+      "source_path": "skills/observability-and-instrumentation",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "files": {
+        "LICENSE": {
+          "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+          "modified": false,
+          "upstream_sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+        },
+        "NOTICE.md": {
+          "sha256": "3bd70ef368eaf75d7498e0818f6db3b615515dc160cd26c27dde811db11b3b6c",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "2ea4d190d5ce3ae2555086d611ba3afa7636a1e0601b53ce720bd563a215b09a",
+          "modified": true,
+          "upstream_sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87"
+        },
+        "references/c.md": {
+          "sha256": "57da755928760bff48bf26fcf32adf1c9daecb2f8831128a3799d307001c847c",
+          "modified": true
+        },
+        "references/cpp.md": {
+          "sha256": "7840dabd2f2f8505ffa978bfd1bf9f0a2486c2204580c850ccffa7edbe54df84",
+          "modified": true
+        },
+        "references/go.md": {
+          "sha256": "057d543a131cadc829d5e070c32cefcec0b3a76ba6052e7d2eae7385e05c8548",
+          "modified": true
+        },
+        "references/operations.md": {
+          "sha256": "ed4634bb207b248cb4d15840d88436d011e5f36b96f04f6848609c7360fef160",
+          "modified": true
+        },
+        "references/python.md": {
+          "sha256": "78ff48fb97342ab3765e4cb4be48bbe7a41f906a81e9f4ea32c8d097d04edc1a",
+          "modified": true
+        },
+        "references/rust.md": {
+          "sha256": "de2a76c2fc624c4ee83d7c4a07dcd39b4a0dbcb5d32ad0e26ba2ede4e43b46c2",
+          "modified": true
+        },
+        "references/swift.md": {
+          "sha256": "e0141f40da233704bd29d97bafee858a482b37ca1b98c441ccd3c7b82ecb468b",
+          "modified": true
+        },
+        "references/typescript.md": {
+          "sha256": "b2ce37c0ef57629cf58e5f3b97fd08d35c9701a9d8330a24b1755feb1a3ee742",
+          "modified": true
+        },
+        "references/zig.md": {
+          "sha256": "3d0ad90d5800430cf45b441e265f01fa32ea25283e0a353f9923f4a59f3d5604",
+          "modified": true
+        }
+      },
+      "adaptations": [
+        "Original compact operational policy and eight primary-source language references; separate diagnostics from audits, bounded overhead and actionable alerts.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "verify-feature",
+      "repository": "https://github.com/openclaw/agent-skills",
+      "revision": "1f71b29b31c1c3d41a227c68204e71de260a6933",
+      "source_path": "skills/behavior-validator",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/steipete/agent-scripts",
+          "revision": "d210c0a77c8f9ae5e1d939b13238a75e87cdb69a",
+          "source_path": "skills/instruments-profiling",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "290b26d1a4e560be8f16c270bf4c5249514846dd32f82b0f11e378270d92447e",
+          "modified": false,
+          "upstream_sha256": "290b26d1a4e560be8f16c270bf4c5249514846dd32f82b0f11e378270d92447e"
+        },
+        "LICENSE.peter": {
+          "sha256": "91089c64f7d3b2af58205ce4f22023029fd0b1bb815166e230225923ad2655f2",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "a853b877462075257b687a473ff6abcf68b523fc085194fc7f8b2eb792673acb",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "76a272afad3f4fa3cb47e416251241bd693f2b67eb671f9ffd2916e5dc0f238f",
+          "modified": true,
+          "upstream_sha256": "68d50ab72464f95809d00da6148eaeede9452a5490da5b690cf530607fd6f5d7"
+        }
+      },
+      "adaptations": [
+        "Source-informed real behavior verification, relevant failure and resource probes; no source-blind claim or exhaustive matrix.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "evaluate-agents",
+      "repository": "https://github.com/affaan-m/ECC",
+      "revision": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+      "source_path": "skills/eval-harness",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/affaan-m/ECC",
+          "revision": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+          "source_path": "skills/agent-harness-construction",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+          "modified": false,
+          "upstream_sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+        },
+        "NOTICE.md": {
+          "sha256": "98d85072e9273d295a710756ad086016bc279562f29a30a189b92ec46990a43f",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "7f1aea5e089ff0de4e2a6552d9a0318124918f915935ea8d3ab90d73f39f532e",
+          "modified": true,
+          "upstream_sha256": "52b81e5ef18f7634d43f0838d784b1ce67a82a47f33c8a913e5b2ee960393bbb"
+        }
+      },
+      "adaptations": [
+        "Runner-neutral deterministic contracts and stochastic outcome evaluation; independent grading, held-out cases, hard gates and bounded cost; no executable harness or hooks.",
+        "Instructions/references only; omit upstream automation and pack-wide policies."
+      ]
+    },
+    {
+      "name": "instrument-analytics",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "source_path": "skills/analytics",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/Accoil/product-tracking-skills",
+          "revision": "91ae6a6267804e83a792b477f348d00c51d1a6cf",
+          "source_path": "skills/product-tracking-design-tracking-plan",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/clamp-sh/analytics-skills",
+          "revision": "b9e06c5131a6060114e68893bc34fc77b65a9552",
+          "source_path": "skills/event-schema-author",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/PostHog/skills",
+          "revision": "f87c8afca37db929d41461026f35388cef7306e1",
+          "source_path": "skills/omnibus",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/honeycombio/agent-skill",
+          "revision": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+          "source_path": "honeycomb/skills/otel-genai-instrumentation",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "adaptations": [
+        "Original synthesis with product-event, OTel and agent-harness references; no upstream instruction file copied verbatim.",
+        "Small application-owned event API and one provider adapter; direct OTel tracing API; no new bus, vendor or collector by default.",
+        "Authoritative outcomes, bounded delivery and collection, privacy-aware identity, sampling-independent counts and focused verification.",
+        "Current GenAI conventions checked against separate Development registry; upstream payload-capture, metric and experimental-flag guidance corrected."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "b1a3198db169a1872d57778b88286cfa7ceab58d16a0034ee80133725895d8da",
+          "modified": true
+        },
+        "NOTICE.md": {
+          "sha256": "a1befd862cc75f597d23c8accbbdf7ea9d70926a97b5e7657fe53408f3d7bb53",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "840278f324ccb8916f66a7aabdf1ee5043533e674c35ae1f2392eb8cb68c9b86",
+          "modified": true
+        },
+        "references/agent-harness.md": {
+          "sha256": "a91508ea269c06472a5d6ccd9026060895cb5d650e943bb40c23d9768193be7c",
+          "modified": true
+        },
+        "references/otel.md": {
+          "sha256": "e5fceb429bf5779f961ad71770f414404acb794c692137934b97e259d4a3004b",
+          "modified": true
+        },
+        "references/product-events.md": {
+          "sha256": "32a535507f2ea9668ca225c4bf8b72bbd202bd583547699c47e20820753f131c",
+          "modified": true
+        }
+      }
+    },
+    {
+      "name": "perf-web",
+      "repository": "https://github.com/addyosmani/web-quality-skills",
+      "revision": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "source_path": "skills/performance",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/addyosmani/web-quality-skills",
+          "revision": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+          "source_path": "skills/core-web-vitals",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "adaptations": [
+        "Consolidate performance and Core Web Vitals into one focused measurement workflow.",
+        "Separate field/lab/static evidence, verify cache state and comparable conditions; no mandatory optimization recipes or telemetry setup.",
+        "Original concise standalone instruction prose; preserve source licensing and omit upstream execution/setup workflow.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "c122223ac43e86421958e18623979942c21b642951e2e3736dcb63eff13587c3",
+          "modified": false,
+          "upstream_sha256": "c122223ac43e86421958e18623979942c21b642951e2e3736dcb63eff13587c3"
+        },
+        "NOTICE.md": {
+          "sha256": "e240761a710ffb92b8abba0a98ab49ca4e82c776dbca6e12917b43affb00b138",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "cb7f3c613f3b8c294e9514024f0d85c76bd4ce95508a66d9ed83a36a740e525f",
+          "modified": true
+        }
+      }
+    },
+    {
+      "name": "perf-browser-memory",
+      "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "revision": "8ba2ac945ebaf1adb92208c29f3a30e73a920956",
+      "source_path": "skills/memory-leak-debugging",
+      "license": "Apache-2.0",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "adaptations": [
+        "Use available heap tools with lifecycle baselines, cleanup and retaining-owner evidence.",
+        "No fixed repetition quota, automatic MCP installation, raw heap upload or blanket detached-node deletion.",
+        "Original concise standalone instruction prose; preserve source licensing and omit upstream execution/setup workflow.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "modified": false,
+          "upstream_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        "NOTICE.md": {
+          "sha256": "c346604b7d28e60512430e9f181bb7a5a65a9554d58bb88bde65f88630329fe3",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "f5cae851e9713e2dd6a9a990987a5b5e1cb053a96c8e6886b74d93a28b0a1ff4",
+          "modified": true
+        }
+      }
+    },
+    {
+      "name": "perf-apple",
+      "repository": "https://github.com/CharlesWiltgen/Axiom",
+      "revision": "ffafd3b3e0dbaaa60b753ca4a835ae6603b873e1",
+      "source_path": "axiom-codex/skills/axiom-profile-performance",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [],
+      "adaptations": [
+        "Standalone Instruments/xctrace workflow without xcprof or missing plugin references.",
+        "Explicit target hardware, cold/warm modes, matching symbols, export coverage, retention and absolute performance.",
+        "Original concise standalone instruction prose; preserve source licensing and omit upstream execution/setup workflow.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved.",
+        "Original 63-instrument catalog, 17 workflow recipes, scoped capture helper and native baseline-template link installer, informed by current Apple docs and installed Xcode 27 package schemas.",
+        "Original per-workflow acceptance criteria, UI/product invariants, public API review, version-aware implementation investigation and hardware source map with explicit access and evidence limits.",
+        "Linked an owner-supplied Apple CPU guide in private persistent reference storage; the portable skill records version/integrity and selective-reading guidance without bundling the PDF.",
+        "Linked three unchanged public Metal PDFs in persistent local/Shared reference storage, with source URLs, versions, integrity values and focused GPU/ML reading guidance; owner-requested private ZIP includes the CPU and Metal references separately from the skill.",
+        "Added original Metal debugger/gpudebug and reusable device performance-regression references, with scoped session cleanup, equivalent measurement modes, build/result identity and controlled CI acceptance."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "1deacd2e90d0a75c5e5472ce62bd07c18a540cc2d14cd5d004fb84b308ee4c45",
+          "modified": false,
+          "upstream_sha256": "1deacd2e90d0a75c5e5472ce62bd07c18a540cc2d14cd5d004fb84b308ee4c45"
+        },
+        "NOTICE.md": {
+          "sha256": "b0248705bc82383a0a639ca84f6af8c8ba3d33924ffcaf10941a62989cb42acd",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "43c343eff1ea16655f4a81f9280ca98dd929657460f4eb814f35fad3001e65f0",
+          "modified": true
+        },
+        "assets/capture-recipes.json": {
+          "modified": true,
+          "sha256": "937f7ecb429245f95a4f67785cae73f7bf45bd4e3302d0b21b1eebbdbef6e8dd"
+        },
+        "references/capture.md": {
+          "modified": true,
+          "sha256": "5ed52b27debbcb4be13674f7cacc2dd2f69b70e8ac58bd854f9b2423be65e37b"
+        },
+        "references/instruments.md": {
+          "modified": true,
+          "sha256": "586135ba86f4cbd23bbc9fda438e47848fa70336c2bf87abf0d800f57e1d5c73"
+        },
+        "references/sources.md": {
+          "modified": true,
+          "sha256": "3ae9b94400fd5433aded242179cc2303aaf23b57cf4d2cad2176f64d46bd7abb"
+        },
+        "scripts/capture.py": {
+          "modified": true,
+          "sha256": "9e9be2cfe23202bb97561f412dbe091f14c6b14df2e2f1917bb3dc388050423a"
+        },
+        "scripts/install_templates.py": {
+          "modified": true,
+          "sha256": "d4dd482fc745958997db762833abf9343ee6b4c99ea9945f51147ffe92c7f89c"
+        },
+        "references/acceptance.md": {
+          "modified": true,
+          "sha256": "33afaa3679a15ef4b3b2a5c7f9cbdfd3b88cac96555875df3b884295e1647251"
+        },
+        "references/investigation.md": {
+          "modified": true,
+          "sha256": "6e15bda9bfc06b80a425e0c1e15cf9c6bca8164dfa9ea325cbfb2710a60692a0"
+        },
+        "references/metal.md": {
+          "modified": true,
+          "sha256": "c660f481c80240b8cbbf07284efbbc9e0f12e5db8f4d2fd5a8593055da9046c8"
+        },
+        "references/regression-testing.md": {
+          "modified": true,
+          "sha256": "34691a0f9a376d447d9d4ead95466fd733f611659838c3b0102f28aa68be9154"
+        }
+      }
+    },
+    {
+      "name": "perf-cuda",
+      "repository": "https://github.com/NVIDIA/TensorRT-LLM",
+      "revision": "b66427ab720009a226718b6bb28e9ab317f26f24",
+      "source_path": ".claude/skills/perf-nsight-systems",
+      "license": "Apache-2.0",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/NVIDIA/TensorRT-LLM",
+          "revision": "b66427ab720009a226718b6bb28e9ab317f26f24",
+          "source_path": ".claude/skills/perf-nsight-compute-analysis",
+          "license": "Apache-2.0",
+          "license_source": "LICENSE"
+        }
+      ],
+      "adaptations": [
+        "Combine system timeline and targeted kernel diagnosis; preserve asynchronous timing, lifetimes and numerical correctness.",
+        "Treat occupancy/SOL as evidence, not universal targets; no automatic host privileges, clock changes or monitoring disruption.",
+        "Original concise standalone instruction prose; preserve source licensing and omit upstream execution/setup workflow.",
+        "Rename the local skill to perf-cuda for purpose-based discovery; preserve upstream identity.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved.",
+        "2026-11-16: original source-checked references for compilation/CUDA graph ownership, kernel selection, precision and Compute Sanitizer; whole-model serving routes to perf-inference. Additional research pins are in NOTICE.md."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "120848c847b93119a865936dcef23487b00758bf7b0adae5e9794f46049d3bfc",
+          "modified": true,
+          "upstream_sha256": "a56e691155bb532ea212f701d3ecacb2db549fa64757f9bad3e06bc9177f46ea"
+        },
+        "NOTICE.md": {
+          "sha256": "9e3376d05d23f1e0443ac2524cf47bb8f7d5f2c6b997f276c588e01c1f6fb384",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "15a9e8988cab8e6da83169ed783406cfba65ca74d3a42b19db80706197f0ded7",
+          "modified": true
+        },
+        "references/compilation-and-graphs.md": {
+          "modified": true,
+          "sha256": "9d2096f93a97d9d590f977bbe1b3e3e24299203b08cd4a24ad870167bb8edfd5"
+        },
+        "references/kernels-and-correctness.md": {
+          "modified": true,
+          "sha256": "e9a29724da7a1910f25c35ccb6a353784746bff80effd3587ad4f85d364cebd5"
+        }
+      }
+    },
+    {
+      "name": "perf-rust-cli",
+      "repository": "https://github.com/Dankosik/rust-cli-skills",
+      "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+      "source_path": "skills/rust-performance",
+      "license": "MIT",
+      "license_source": "LICENSE",
+      "omitted_files": [],
+      "additional_sources": [
+        {
+          "repository": "https://github.com/Dankosik/rust-cli-skills",
+          "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+          "source_path": "skills/rust-memory",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/Dankosik/rust-cli-skills",
+          "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+          "source_path": "skills/rust-io",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/Dankosik/rust-cli-skills",
+          "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+          "source_path": "skills/rust-processes",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/Dankosik/rust-cli-skills",
+          "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+          "source_path": "skills/rust-concurrency",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        },
+        {
+          "repository": "https://github.com/Dankosik/rust-cli-skills",
+          "revision": "aafca337dece65f312faaecd0fe9ee1c81f755df",
+          "source_path": "skills/rust-cli-testing",
+          "license": "MIT",
+          "license_source": "LICENSE"
+        }
+      ],
+      "adaptations": [
+        "Consolidate performance-relevant Rust CLI guidance into one standalone skill.",
+        "Measure startup/first output/end-to-end work with version-aware timing, bounded streams/children and observable CLI correctness.",
+        "Original concise standalone instruction prose; preserve source licensing and omit upstream execution/setup workflow.",
+        "Task-owned profiling artifact/cache cleanup after reporting, with shared caches, required evidence and failure diagnostics preserved.",
+        "2026-11-15: optional perf-rust routing for low-level bottlenecks; command/output/process contract retained."
+      ],
+      "files": {
+        "LICENSE": {
+          "sha256": "1691904833f8c07f47eb11350734e1164c47bad6a3cdf6975391784d408069b1",
+          "modified": false,
+          "upstream_sha256": "1691904833f8c07f47eb11350734e1164c47bad6a3cdf6975391784d408069b1"
+        },
+        "NOTICE.md": {
+          "sha256": "01d365fa39a77fb8e5eb793170388f4a2f351ceed61fa6517aab545c9cd15ebc",
+          "modified": true
+        },
+        "SKILL.md": {
+          "sha256": "7ba12c320bd4886f73ce377fd26ceddf511fcc378fc57e61f221bb2c44bb042d",
+          "modified": true
+        }
+      }
+    }
+  ],
+  "distribution": "Public adaptations; upstream licenses and copyright notices remain applicable."
+}

@@ -1,0 +1,190 @@
+{
+  "verified_on": "2026-11-14",
+  "xctrace_version": "27.0 (27A266a)",
+  "skill": "perf-apple",
+  "note": "Portable capture recipes, not native .tracetemplate archives. covers assigns documentation ownership, not the instruments enabled by default. Add a specific instrument only for a relevant follow-up. Target support and populated data must be verified.",
+  "recipes": {
+    "cpu": {
+      "template": "Time Profiler",
+      "instruments": [],
+      "purpose": "CPU computation and hardware efficiency",
+      "covers": [
+        "Activity Monitor",
+        "Time Profiler",
+        "Sampler",
+        "CPU Profiler",
+        "CPU Counters",
+        "Processor Trace"
+      ]
+    },
+    "scheduling": {
+      "template": "System Trace",
+      "instruments": [],
+      "purpose": "Hangs, blocked/runnable time and kernel activity",
+      "covers": [
+        "Hangs",
+        "Thread Activity",
+        "System Call Trace",
+        "Virtual Memory Trace",
+        "Run Loops",
+        "System Load"
+      ]
+    },
+    "concurrency": {
+      "template": "Swift Concurrency",
+      "instruments": [],
+      "purpose": "Task lifetime, actor contention, executors and dispatch",
+      "covers": [
+        "Swift Tasks",
+        "Swift Actors",
+        "Swift Executors",
+        "GCD Performance"
+      ]
+    },
+    "memory": {
+      "template": "Allocations",
+      "instruments": [],
+      "purpose": "Allocation churn, leaks and charged footprint",
+      "covers": [
+        "Allocations",
+        "Leaks",
+        "VM Tracker"
+      ]
+    },
+    "launch": {
+      "template": "App Launch",
+      "instruments": [],
+      "purpose": "Startup loading and first usable interaction",
+      "covers": [
+        "dyld Activity"
+      ]
+    },
+    "scroll": {
+      "template": "Animation Hitches",
+      "instruments": [],
+      "purpose": "Frame deadlines and Core Animation phases",
+      "covers": [
+        "Hitches",
+        "Core Animation Activity",
+        "Core Animation Commits",
+        "Core Animation Server",
+        "Core Animation FPS",
+        "Frame Lifetimes"
+      ]
+    },
+    "swiftui": {
+      "template": "SwiftUI",
+      "instruments": [],
+      "purpose": "Update causes, body work and layout",
+      "covers": [
+        "SwiftUI",
+        "View Body (Legacy)",
+        "View Properties (Legacy)"
+      ]
+    },
+    "io": {
+      "template": "File Activity",
+      "instruments": [],
+      "purpose": "File operations, descriptors and physical storage",
+      "covers": [
+        "Filesystem Activity",
+        "Disk Usage",
+        "Disk I/O Latency",
+        "Filesystem Suggestions"
+      ]
+    },
+    "persistence": {
+      "template": "Data Persistence",
+      "instruments": [],
+      "purpose": "SwiftData and Core Data faults, fetches and saves",
+      "covers": [
+        "Data Faults",
+        "Data Fetches",
+        "Data Saves"
+      ]
+    },
+    "network": {
+      "template": "Network",
+      "instruments": [],
+      "purpose": "Connection use and HTTP request phases",
+      "covers": [
+        "Network Connections",
+        "HTTP Traffic"
+      ]
+    },
+    "audio": {
+      "template": "Audio System Trace",
+      "instruments": [],
+      "purpose": "Client callbacks, audio engines and jitter",
+      "covers": [
+        "Audio Client",
+        "Audio Server",
+        "Audio Statistics"
+      ]
+    },
+    "gpu": {
+      "template": "Metal System Trace",
+      "instruments": [],
+      "purpose": "Metal execution, resources and presentation",
+      "covers": [
+        "Metal Application",
+        "GPU",
+        "Metal GPU Counters",
+        "Metal Resource Events",
+        "Metal Performance Overview",
+        "Display",
+        "Advanced Graphics Statistics"
+      ]
+    },
+    "spatial": {
+      "template": "RealityKit Trace",
+      "instruments": [],
+      "purpose": "visionOS rendering, foveated streaming and SceneKit follow-up",
+      "covers": [
+        "RealityKit Frames",
+        "RealityKit Metrics",
+        "Foveated Streaming Statistics",
+        "SceneKit Application"
+      ]
+    },
+    "energy": {
+      "template": "Power Profiler",
+      "instruments": [],
+      "purpose": "Power, thermal state and location activity",
+      "covers": [
+        "Power Profiler",
+        "Thermal State",
+        "Location Energy Model"
+      ]
+    },
+    "ml": {
+      "template": "Core AI",
+      "instruments": [],
+      "purpose": "Core AI/Core ML model execution and compute-unit activity",
+      "covers": [
+        "Core AI",
+        "Core ML",
+        "Neural Engine"
+      ]
+    },
+    "foundation-models": {
+      "template": "Foundation Models",
+      "instruments": [],
+      "purpose": "Request, model, tool latency and token use",
+      "covers": [
+        "Foundation Models"
+      ]
+    },
+    "logging": {
+      "template": "Logging",
+      "instruments": [],
+      "purpose": "Signposts, state, unified logs and process output",
+      "covers": [
+        "Points of Interest",
+        "os_signpost",
+        "os_log",
+        "stdout/stderr"
+      ]
+    }
+  }
+}

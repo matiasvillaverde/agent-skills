@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize repository"
+  short_description: "Organize files, docs and scoped agent instructions"
+  default_prompt: "Use $organize-repo to inspect this repository and improve file placement, documentation navigation and scoped AGENTS.md instructions while preserving behavior."

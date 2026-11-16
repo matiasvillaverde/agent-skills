@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swift build performance"
+  short_description: "Speed up Swift builds and local iteration"
+  default_prompt: "Use $perf-swift-build to measure and improve this project's local Swift edit-build-run-test loop using its existing Xcode, SwiftPM or Tuist setup."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Inference performance"
+  short_description: "Optimize NVIDIA inference quality, latency and capacity"

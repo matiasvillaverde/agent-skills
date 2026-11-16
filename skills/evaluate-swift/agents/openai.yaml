@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Swift AI"
+  short_description: "Measure Swift AI quality with Apple Evaluations"
+  default_prompt: "Use $evaluate-swift to build or review an evaluation for this Swift intelligence feature."

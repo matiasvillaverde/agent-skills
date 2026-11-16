@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Conventions"
+  short_description: "Find meaningful naming and convention drift"
+  default_prompt: "Use $review-conventions to audit conventions in this codebase and recommend the smallest useful corrections."

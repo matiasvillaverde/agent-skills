@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rust build performance"
+  short_description: "Speed up Rust compilation and local iteration"
+  default_prompt: "Use $perf-rust-build to measure and improve this repository's local Rust edit-check-build-test loop while preserving correctness and debugging needs."
